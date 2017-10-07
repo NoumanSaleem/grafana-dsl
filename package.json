@@ -1,7 +1,7 @@
 {
   "name": "grafana-dsl",
   "version": "1.0.14",
-  "description": "",
+  "description": "A DSL for programmatically generating Grafana dashboard JSON.",
   "main": "lib/index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir lib",
@@ -10,6 +10,17 @@
   },
   "author": "Nouman Saleem",
   "license": "ISC",
+  "homepage": "https://github.com/NoumanSaleem/grafana-dsl#readme",
+  "bugs": {
+    "url": "https://github.com/NoumanSaleem/grafana-dsl/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NoumanSaleem/grafana-dsl.git"
+  },
+  "keywords": [
+    "grafana", "grafana dashboard", "grafana dashboard json", "grafana json"
+  ],
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.18.0",
