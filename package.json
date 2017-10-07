@@ -1,6 +1,6 @@
 {
   "name": "grafana-dsl",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "A DSL for programmatically generating Grafana dashboard JSON.",
   "main": "lib/index.js",
   "scripts": {
