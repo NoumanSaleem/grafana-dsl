@@ -18,7 +18,7 @@ import dashboard from 'grafana-dsl';
 const backendDashboard = dashboard()
   .title('Backend Dashboard')
   .row(row => row()
-    .graohPanel(panel => panel()
+    .graphPanel(panel => panel()
       .title('CPU')
       .span(12)
       .target(target => target()
@@ -39,7 +39,7 @@ require('fs').writeFileSync(__dirname + '/backendDashboard.json', JSON.stringify
 In addition to the above syntax, you can also create objects like rows, panels, alerts, and more directly. This pattern enables reusable configuration components.
 
 ```
-import dashboard, { graohPanel } from 'grafana-dsl';
+import dashboard, { graphPanel } from 'grafana-dsl';
 
 const cpuGraph = graphPanel()
   .title('CPU')
